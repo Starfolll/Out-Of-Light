@@ -1,0 +1,169 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+  font-family: 'Kalam', cursive;
+}
+
+:root{
+  --main_gradient: linear-gradient(-45deg, rgba(40,10,0, .8), rgba(0,0,0, .8));
+  --second_gradient: linear-gradient(-45deg, rgba(255,160,0,0.3), rgba(0,0,0, 0.3));
+}
+
+
+.main_content{
+  height: 100vh;
+
+  background: var(--main_gradient), url("http://images6.fanpop.com/image/photos/38700000/Floating-Island-fantasy-38740640-1600-900.jpg") no-repeat center center;
+  background-size: cover;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.main_content > h1{
+  color: white;
+
+  font-size: 42px;
+
+  text-align: center;
+
+  text-shadow: 2px 2px 5px black;
+}
+
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.links > a{
+  text-decoration: none;
+}
+.links > a > div{
+  transition: 0.3s;
+
+  background: rgba(255,255,255,0.1);
+  border-radius: 3px;
+
+  margin: 10px;
+  padding: 10px;
+
+  box-shadow: 2px 2px 5px black;
+
+  border-bottom: 2px solid transparent;
+}
+.links > a > div:hover{
+  margin: 5px;
+  padding: 15px;
+  border-bottom: 2px solid white;
+}
+.links > a > div > p{
+  color: white;
+
+  padding: 0 20px;
+
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.links > a > .home:hover{
+  background: var(--main_gradient), url("https://i.pinimg.com/originals/11/24/67/112467aec1d3294fc6a71c350c824b77.jpg");
+  background-size: cover;
+}
+.links > a > .about:hover{
+  background: var(--main_gradient), url("https://steamuserimages-a.akamaihd.net/ugc/932690098346232256/B0D04DCCB857C6095D544B4E66624BEFCA511D1A/");
+  background-size: cover;
+}
+.links > a > .plans:hover{
+  background: var(--main_gradient), url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/db806268-b76c-445d-8beb-958febd1a85c/d9l8833-4fd5e5b2-1da9-4452-adb8-c9ad1948540e.jpg/v1/fill/w_1024,h_492,q_75,strp/magic_map_by_dawnpu_d9l8833-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDkyIiwicGF0aCI6IlwvZlwvZGI4MDYyNjgtYjc2Yy00NDVkLThiZWItOTU4ZmViZDFhODVjXC9kOWw4ODMzLTRmZDVlNWIyLTFkYTktNDQ1Mi1hZGI4LWM5YWQxOTQ4NTQwZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.W9_GkeQkxf2E6sJGTRm9SQ2vBNTXT-o2wy9JWEkSNgQ");
+  background-size: cover;
+}
+
+
+.title{
+  background: black;
+  padding: 20px;
+}
+.title > p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.content{
+  background: var(--second_gradient);
+  display: flex;
+  flex-wrap: wrap;
+}
+.content > div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+}
+.content > div > p{
+  font-family: 'Raleway', sans-serif;
+  margin: auto 10px;
+  color: black;
+  font-size: 18px;
+}
+.content > div > img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.plans{
+  background: var(--second_gradient);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+.plans > div{
+  max-width: 40%;
+  margin: 10px;
+  display: grid;
+  grid-template-rows: auto auto;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+}
+.plans > div > p{
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+.plans > div > .aim{
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  background: black;
+  color: white;
+}
+.plans > div > img{
+  width: 100%;
+  object-fit: scale-down;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
