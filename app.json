@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "Out-Of-Light",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
