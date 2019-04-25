@@ -1,0 +1,15 @@
+{
+  "name": "out_of_light",
+  "version": "1.0.0",
+  "description": "Test web app for heroku",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "heroku"
+  ],
+  "author": "Starfolll",
+  "license": "MIT"
+}
